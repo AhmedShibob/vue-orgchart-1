@@ -1,7 +1,7 @@
 {
   "name": "vue-orgchart-04",
   "description": "A vue wrapper for OrgChart.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "shibob",
     "email": "ahmeds_shibob@outlook.com"
