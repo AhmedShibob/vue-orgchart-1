@@ -1,70 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #wrapper {
   width: 50%;
   margin: 0 auto;
@@ -88,6 +23,7 @@
   top: 10px;
   left: 10px;
   height: 50%;
+  min-height: 30rem;
   width: calc(100% - 24px);
   border-radius: 5px;
   overflow: auto;
@@ -298,16 +234,14 @@
 
 .orgchart .node .title {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 300;
-  height: 20px;
-  line-height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
   background-color: #42b983;
   color: #fff;
   border-radius: 4px 4px 0 0;
+  padding: 3px;
 }
 
 .orgchart.b2t .node .title {
@@ -380,7 +314,7 @@
 .orgchart .node .edge {
   font-size: 15px;
   position: absolute;
-  color: rgba(68, 157, 68, 0.5);
+  color: rgb(66, 185, 131);
   cursor: default;
   transition: .2s;
   -webkit-transition: .2s;
@@ -402,26 +336,26 @@
 }
 
 .orgchart .node .topEdge {
-  top: -4px;
+  top: -10px;
 }
 
 .orgchart .node .bottomEdge {
-  bottom: -4px;
+  bottom: -10px;
 }
 
 .orgchart .node .horizontalEdge {
-  width: 15px;
+  width: 18px;
   height: calc(100% - 10px);
   height: -moz-calc(100% - 10px);
   top: 5px;
 }
 
 .orgchart .node .rightEdge {
-  right: -4px;
+  right: -10px;
 }
 
 .orgchart .node .leftEdge {
-  left: -4px;
+  left: -10px;
 }
 
 .orgchart .node .horizontalEdge::before {
@@ -458,7 +392,7 @@
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.42857143;
+  /* line-height: 1.42857143; */
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -549,7 +483,7 @@
   border-radius: 4px;
   float: left;
   margin-top: 20px;
-  padding: 10px 5px 10px 10px;
+  padding: 3rem 5rem 3rem 5rem;
   font-size: 14px;
   line-height: 1.5;
   border-radius: 2px;
@@ -566,7 +500,8 @@
 }
 
 #edit-panel .new-node {
-  height: 24px;
+  margin-left: 0;
+  margin-right: 0;
   -webkit-appearance: none;
   background-color:#fff;
   background-image: none;
@@ -624,9 +559,10 @@
 }
 
 #edit-panel button:hover,.edit-panel button:focus,.edit-panel button:active {
-  border-color: #409eff;
+  /*border-color: #409eff;
   -webkit-box-shadow:  0 0 10px #409eff;
           box-shadow:  0 0 10px #409eff;
+          */
 }
 
 #new-nodelist {
@@ -635,6 +571,7 @@
   margin-top: -2px;
   padding: 0;
   vertical-align: text-top;
+  width: 100%;
 }
 
 #new-nodelist>* {
