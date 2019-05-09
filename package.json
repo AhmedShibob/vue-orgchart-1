@@ -3,9 +3,8 @@
   "description": "A vue wrapper for OrgChart.js",
   "version": "1.0.0",
   "author": {
-    "name": "spiritree",
-    "email": "spiritreess@gmail.com",
-    "url": "https://github.com/spiritree"
+    "name": "shibob",
+    "email": "ahmeds_shibob@outlook.com"
   },
   "files": [
     "dist",
@@ -14,9 +13,9 @@
   ],
   "main": "dist/vue-orgchart.min.js",
   "license": "MIT",
-  "homepage": "https://spiritree.github.io/vue-orgchart",
+  "homepage": "https://github.com/AhmedShibob/vue-orgchart-1",
   "bugs": {
-    "url": "https://github.com/spiritree/vue-orgchart/issues"
+    "url": "https://github.com/AhmedShibob/vue-orgchart-1/issues"
   },
   "scripts": {
     "dev": "webpack-dev-server --config ./build/webpack.config.js",
@@ -27,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spiritree/vue-orgchart.git"
+    "url": "git+https://github.com/AhmedShibob/vue-orgchart-1.git"
   },
   "keywords": [
     "vue",
